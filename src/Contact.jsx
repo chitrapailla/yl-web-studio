@@ -24,9 +24,9 @@ function Contact() {
           <h2>Get In Touch</h2>
 
           <form
-  action="https://formspree.io/f/xkoeeqvw"
-  method="POST"
->
+            action="https://formspree.io/f/xkoeeqvw"
+            method="POST"
+          >
   <input
     type="text"
     name="name"
