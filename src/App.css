@@ -335,7 +335,7 @@ body {
   font-size: 14px;
 }
 
-@media (max-width: 950px) {
+@@media (max-width: 950px) {
   .hero-section,
   .why-yl-section {
     grid-template-columns: 1fr;
@@ -362,12 +362,18 @@ body {
   }
 
   .website-cards,
-  .benefits-grid {
+  .benefits-grid,
+  .process-timeline {
     grid-template-columns: 1fr;
   }
 
   .why-yl-left {
     margin-bottom: 40px;
+  }
+
+  .process-step {
+    text-align: left;
+    width: 100%;
   }
 }
 .footer {
