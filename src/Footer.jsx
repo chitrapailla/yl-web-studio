@@ -18,8 +18,8 @@ function Footer() {
         </div>
 
         <div className="footer-contact">
-          <p>your-email@domain.com</p>
-          <p>(123) 456-7890</p>
+          <p>webstudioyl@gmail.com</p>
+          <p>8168325057</p>
         </div>
 
       </div>
