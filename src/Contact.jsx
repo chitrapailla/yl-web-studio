@@ -23,41 +23,47 @@ function Contact() {
 
           <h2>Get In Touch</h2>
 
-          <form>
+          <form
+  action="https://formspree.io/f/xkoeeqvw"
+  method="POST"
+>
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+  />
 
-            <input
-              type="text"
-              placeholder="Your Name"
-            />
+  <input
+    type="text"
+    name="business"
+    placeholder="Business Name"
+  />
 
-            <input
-              type="text"
-              placeholder="Business Name"
-            />
+  <input
+    type="email"
+    name="email"
+    placeholder="Email Address"
+  />
 
-            <input
-              type="email"
-              placeholder="Email Address"
-            />
+  <input
+    type="tel"
+    name="phone"
+    placeholder="Phone Number"
+  />
 
-            <input
-              type="tel"
-              placeholder="Phone Number"
-            />
+  <textarea
+    name="message"
+    rows="6"
+    placeholder="Tell us about your project..."
+  ></textarea>
 
-            <textarea
-              rows="6"
-              placeholder="Tell us about your project..."
-            ></textarea>
-
-            <button
-              type="submit"
-              className="btn btn-primary"
-            >
-              Send Inquiry
-            </button>
-
-          </form>
+  <button
+    type="submit"
+    className="btn btn-primary"
+  >
+    Send Inquiry
+  </button>
+</form>
 
         </div>
 
