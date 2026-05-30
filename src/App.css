@@ -335,47 +335,6 @@ body {
   font-size: 14px;
 }
 
-@@media (max-width: 950px) {
-  .hero-section,
-  .why-yl-section {
-    grid-template-columns: 1fr;
-    display: block;
-  }
-
-  .hero-section {
-    min-height: auto;
-    padding: 80px 6%;
-  }
-
-  .hero-left h1 {
-    font-size: 44px;
-  }
-
-  .hero-right {
-    margin-top: 50px;
-  }
-
-  .logo-card {
-    width: 100%;
-    height: auto;
-    padding: 50px;
-  }
-
-  .website-cards,
-  .benefits-grid,
-  .process-timeline {
-    grid-template-columns: 1fr;
-  }
-
-  .why-yl-left {
-    margin-bottom: 40px;
-  }
-
-  .process-step {
-    text-align: left;
-    width: 100%;
-  }
-}
 .footer {
   background: #111;
   color: white;
@@ -706,4 +665,46 @@ html {
 
 .pricing-card li:last-child {
   border-bottom: none;
+}
+
+@media (max-width: 950px) {
+  .hero-section,
+  .why-yl-section {
+    grid-template-columns: 1fr;
+    display: block;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding: 80px 6%;
+  }
+
+  .hero-left h1 {
+    font-size: 44px;
+  }
+
+  .hero-right {
+    margin-top: 50px;
+  }
+
+  .logo-card {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+  }
+
+.website-cards,
+.benefits-grid,
+.process-timeline {
+  grid-template-columns: 1fr;
+}
+
+  .why-yl-left {
+    margin-bottom: 40px;
+  }
+
+  .process-step {
+    text-align: left;
+    width: 100%;
+  }
 }
